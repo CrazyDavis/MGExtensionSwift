@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MGExtensionSwift"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "All Extension"
 
   # This description is used to generate tags and improve search results.
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                   All Extension
                    DESC
 
   s.homepage     = "https://github.com/CrazyDavis/MGExtensionSwift"
@@ -91,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "MGExtensionSwift/MGExtensionSwift/Classes/**/*"
-  s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
