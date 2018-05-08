@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B82651B920A14B0800FF4BE7 /* NSAttributedStringeEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82651B820A14B0800FF4BE7 /* NSAttributedStringeEx.swift */; };
+		B82651BB20A14BB100FF4BE7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B82651BA20A14BB100FF4BE7 /* README.md */; };
+		B82651BD20A14BC800FF4BE7 /* MGExtensionSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B82651BC20A14BC800FF4BE7 /* MGExtensionSwift.podspec */; };
 		B8B8BC3B2068D47A005E5906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BC3A2068D47A005E5906 /* AppDelegate.swift */; };
 		B8B8BC3D2068D47A005E5906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BC3C2068D47A005E5906 /* ViewController.swift */; };
 		B8B8BC402068D47A005E5906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B8BC3E2068D47A005E5906 /* Main.storyboard */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B82651B820A14B0800FF4BE7 /* NSAttributedStringeEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringeEx.swift; sourceTree = "<group>"; };
+		B82651BA20A14BB100FF4BE7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		B82651BC20A14BC800FF4BE7 /* MGExtensionSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MGExtensionSwift.podspec; path = ../../MGExtensionSwift.podspec; sourceTree = "<group>"; };
 		B8B8BC372068D47A005E5906 /* MGExtensionSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGExtensionSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B8BC3A2068D47A005E5906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8B8BC3C2068D47A005E5906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +78,8 @@
 				B8B8BC412068D47A005E5906 /* Assets.xcassets */,
 				B8B8BC432068D47A005E5906 /* LaunchScreen.storyboard */,
 				B8B8BC462068D47A005E5906 /* Info.plist */,
+				B82651BA20A14BB100FF4BE7 /* README.md */,
+				B82651BC20A14BC800FF4BE7 /* MGExtensionSwift.podspec */,
 				B8B8BC4C2068D4DA005E5906 /* extension */,
 			);
 			path = MGExtensionSwift;
@@ -86,6 +94,7 @@
 				B8B8BC512068D4DA005E5906 /* StringEx.swift */,
 				B8B8BC522068D4DA005E5906 /* UIImageEx.swift */,
 				B8B8BC532068D4DA005E5906 /* UIViewEx.swift */,
+				B82651B820A14B0800FF4BE7 /* NSAttributedStringeEx.swift */,
 			);
 			name = extension;
 			path = Classes/extension;
@@ -151,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B8BC452068D47A005E5906 /* LaunchScreen.storyboard in Resources */,
+				B82651BD20A14BC800FF4BE7 /* MGExtensionSwift.podspec in Resources */,
 				B8B8BC422068D47A005E5906 /* Assets.xcassets in Resources */,
+				B82651BB20A14BB100FF4BE7 /* README.md in Resources */,
 				B8B8BC402068D47A005E5906 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,6 +181,7 @@
 				B8B8BC582068D4DA005E5906 /* StringEx.swift in Sources */,
 				B8B8BC542068D4DA005E5906 /* ArrayEx.swift in Sources */,
 				B8B8BC3D2068D47A005E5906 /* ViewController.swift in Sources */,
+				B82651B920A14B0800FF4BE7 /* NSAttributedStringeEx.swift in Sources */,
 				B8B8BC3B2068D47A005E5906 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
