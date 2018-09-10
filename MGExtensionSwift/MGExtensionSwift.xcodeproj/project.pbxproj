@@ -10,6 +10,7 @@
 		B82651B920A14B0800FF4BE7 /* NSAttributedStringeEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82651B820A14B0800FF4BE7 /* NSAttributedStringeEx.swift */; };
 		B82651BB20A14BB100FF4BE7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B82651BA20A14BB100FF4BE7 /* README.md */; };
 		B82651BD20A14BC800FF4BE7 /* MGExtensionSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B82651BC20A14BC800FF4BE7 /* MGExtensionSwift.podspec */; };
+		B881771A214676A3004C508F /* URLEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8817719214676A3004C508F /* URLEx.swift */; };
 		B8B8BC3B2068D47A005E5906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BC3A2068D47A005E5906 /* AppDelegate.swift */; };
 		B8B8BC3D2068D47A005E5906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BC3C2068D47A005E5906 /* ViewController.swift */; };
 		B8B8BC402068D47A005E5906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B8BC3E2068D47A005E5906 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		B82651B820A14B0800FF4BE7 /* NSAttributedStringeEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringeEx.swift; sourceTree = "<group>"; };
 		B82651BA20A14BB100FF4BE7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		B82651BC20A14BC800FF4BE7 /* MGExtensionSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MGExtensionSwift.podspec; path = ../../MGExtensionSwift.podspec; sourceTree = "<group>"; };
+		B8817719214676A3004C508F /* URLEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEx.swift; sourceTree = "<group>"; };
 		B8B8BC372068D47A005E5906 /* MGExtensionSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGExtensionSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B8BC3A2068D47A005E5906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8B8BC3C2068D47A005E5906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				B8B8BC522068D4DA005E5906 /* UIImageEx.swift */,
 				B8B8BC532068D4DA005E5906 /* UIViewEx.swift */,
 				B82651B820A14B0800FF4BE7 /* NSAttributedStringeEx.swift */,
+				B8817719214676A3004C508F /* URLEx.swift */,
 			);
 			name = extension;
 			path = Classes/extension;
@@ -176,6 +179,7 @@
 			files = (
 				B8B8BC592068D4DA005E5906 /* UIImageEx.swift in Sources */,
 				B8B8BC562068D4DA005E5906 /* CGFloatEx.swift in Sources */,
+				B881771A214676A3004C508F /* URLEx.swift in Sources */,
 				B8B8BC5A2068D4DA005E5906 /* UIViewEx.swift in Sources */,
 				B8B8BC572068D4DA005E5906 /* DoubleEx.swift in Sources */,
 				B8B8BC582068D4DA005E5906 /* StringEx.swift in Sources */,
