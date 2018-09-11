@@ -5,7 +5,8 @@
 
 所有蒐集/封裝好的 Extension  
 
-## 版本  
+## 版本
+0.0.5 - 新增 URL 擴展 addQuerys, 在原有的 url 基礎上加入 query  
 0.0.4 - 新增 URL 擴展 queryDictionary, 取得 query 的 Dictionary
 0.0.3 - 初始專案提交  
 
