@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "MGExtensionSwift"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "All Extension"
 
   s.description  = <<-DESC

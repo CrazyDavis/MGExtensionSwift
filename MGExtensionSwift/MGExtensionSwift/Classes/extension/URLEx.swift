@@ -28,7 +28,7 @@ public extension URL {
     }
     
     //在url基礎上加入query
-    public mutating func addQuerys(query: [String:String]) {
+    public mutating func addQuerys(_ query: [String:String]) {
         //這有可能拋出錯誤, 若是出現錯誤直接返回nil
         //將 需要帶入的 param 參數以 query item的方式加入url
         var urlComponment = URLComponents.init(url: self, resolvingAgainstBaseURL: false)
